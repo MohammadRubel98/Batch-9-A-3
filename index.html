@@ -1,13 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey Website</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- fonts well -->
+    <script src="https://kit.fontawesome.com/615ab613d9.js" crossorigin="anonymous"></script>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
-</body>
+
+<body class="font-manrope">
+    <header>
+        <!-- banner section -->
+        <div class="container mx-auto mb-24">
+            <div class="carousel h-[600px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Professonal Hokes  -->
+        <section>
+            <div class="text-center space-y-6  mb-20">
+                <h3 class="text-4xl font-extrabold">Professional Hockeys Club</h3>
+                <p class="font-medium w-[607px] mx-auto">Ice hockey (or simply hockey) is a team sport played on ice skates, usually on an ice skating rink with lines and markings specific to the sport.</p>
+            </div>
+
+            <!-- percent section -->
+            <div class="container gap-6 lg:gap-0 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4   mb-20">
+                <!-- percent 1 -->
+                <div class="text-center mx-auto">
+                    <div class="radial-progress bg-transparent text-[#FF4240] mb-7" style="--value:75;"
+                        role="progressbar">
+                        <p class="text-black text-xl font-extrabold">75%</p>
+                    </div>
+                    <h3 class="font-medium text-[20px] mb-6">Prayer Facility</h3>
+                    <p class="font-normal w-[250px]">Nestled within the heart of there lies a distinctive sanctuary beyond traditional sports culture's boundaries—the Prayer Facility.</p>
+                </div>
+                <!-- percent 2 -->
+                <div class="text-center mx-auto">
+                    <div class="radial-progress bg-transparent text-[#49D293] mb-7" style="--value:90;"
+                        role="progressbar">
+                        <p class="text-black text-xl font-extrabold">90%</p>
+                    </div>
+                    <h3 class="font-medium text-[20px] mb-6">Experienced Coach</h3>
+                    <p class="font-normal w-[250px]">In the dynamic world of sports, a truly exceptional coach can be the catalyst for transformative success.</p>
+                </div>
+                <!-- percent 3 -->
+                <div class="text-center mx-auto">
+                    <div class="radial-progress bg-transparent text-[#FFB546] mb-7" style="--value:85;"
+                        role="progressbar">
+                        <p class="text-black text-xl font-extrabold">85%</p>
+                    </div>
+                    <h3 class="font-medium text-[20px] mb-6">Senior Player</h3>
+                    <p class="font-normal w-[250px]">As a senior player,  not only excelled in their performance but also emerged as a natural leader on and off the field.</p>
+                </div>
+                <!-- percent 4 -->
+                <div class="text-center mx-auto">
+                    <div class="radial-progress bg-transparent text-[#4C8DF1] mb-7" style="--value:70;"
+                        role="progressbar">
+                        <p class="text-black text-xl font-extrabold">70%</p>
+                    </div>
+                    <h3 class="font-medium text-[20px] mb-6">Training Ground</h3>
+                    <p class="font-normal w-[250px]">Behind the scenes of every successful sports club lies a crucial element that plays a pivotal role in shaping champions the training ground.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    </body>
 </html>
