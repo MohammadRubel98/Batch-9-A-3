@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey Website</title>
+    <!-- tailwind and daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- google fonts -->
@@ -34,7 +35,7 @@
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <img src="Images/2.png" class="w-full" />
+                    <img src="Images/4.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
@@ -72,7 +73,7 @@
                     </div>
                     <h3 class="font-medium text-[20px] mb-6">Experienced Coach</h3>
                     <p class="font-normal w-[250px]">In the dynamic world of sports, a truly exceptional coach can be
-                        the catalyst for transformative success.</p>
+                        the catalyst for transformation success.</p>
                 </div>
                 <!-- percent 3 -->
                 <div class="text-center mx-auto">
@@ -157,7 +158,9 @@
         <section class="container mx-auto  mb-24">
             <div class="text-center space-y-6  mb-20">
                 <h3 class="text-4xl font-extrabold">Our New Products</h3>
-                <p class="font-medium lg:w-[607px] mx-auto">Hockey equipment and gear refer to the various items and accessories that are essential for playing the sport of hockey. This includes items such as hockey sticks, skates, gloves, helmets, protective pads, and goalie equipment
+                <p class="font-medium lg:w-[607px] mx-auto">Hockey equipment and gear refer to the various items and
+                    accessories that are essential for playing the sport of hockey. This includes items such as hockey
+                    sticks, skates, gloves, helmets, protective pads, and goalie equipment
                     the game.</p>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -289,8 +292,145 @@
                 </div>
             </div>
         </section>
-          
-    </main>
+        <!-- get in touch section -->
+        <section class="container mx-auto mb-24">
+            <div class="text-center space-y-6  mb-20">
+                <h3 class="text-4xl font-extrabold">Get In Touch</h3>
+                <p class="font-medium lg:w-[607px] mx-auto">Generally, visitors can also leave feedback or ask questions through these channels. You’ll receive valuable information about your customers’ preferences and expectations if done correctly.</p>
+            </div>
+            <div class="flex flex-col items-center lg:flex-row lg:justify-center gap-6">
+                <!-- card section -->
+                <div class="flex flex-col gap-6 border border-[#13131819] rounded-2xl p-[50px]">
+                    <!-- card 1 -->
+                    <div class="card lg:w-[374px] rounded-2xl bg-[#BCED6D19] text-black">
+                        <div class="card-body">
+                            <img class="w-12 mb-6" src="Images/Group 1171275317.png" alt="">
+                            <h2 class="text-[#13131866]">Phone Number :</h2>
+                            <p class="text-lg font-bold">(+88) 01609378080</p>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card lg:w-[374px] rounded-2xl bg-[#FDDD5F19] text-black">
+                        <div class="card-body">
+                            <img class="w-12 mb-6" src="Images/Group 1171275318.png" alt="">
+                            <h2 class="text-[#13131866]">Email :</h2>
+                            <p class="text-lg font-bold">hockeys@support.com</p>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card lg:w-[374px] rounded-2xl bg-[#629CF319] text-black">
+                        <div class="card-body">
+                            <img class="w-12 mb-6" src="Images/Group 1171275321.png" alt="">
+                            <h2 class="text-[#13131866]">Location : </h2>
+                            <p class="text-lg font-bold">152/1 Mohakhali Wireless Gate</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                     <!-- form section -->
+                     <div class="flex flex-col lg:flex-row gap-6">
+                        <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                                <span class="text-[20px] font-bold">Your Name</span>
+                            </div>
+                            <input type="text" placeholder="Enter Your Name"
+                                class="input w-[324px] h-[64px] bg-[#13131805] rounded-xl shadow-md" />
+                        </label>
+                        <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                                <span class="text-[20px] font-bold">Your Email</span>
+                            </div>
+                            <input type="text" placeholder="Enter your email"
+                                class="input w-[324px] h-[64px] bg-[#13131805] rounded-xl shadow-md" />
+                        </label>
+                    </div>
+                    <div class="flex flex-col lg:flex-row gap-6 mt-6">
+                        <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                                <span class="text-[20px] font-bold">Subject</span>
+                            </div>
+                            <input type="text" placeholder="Enter your subject"
+                                class="input w-[324px] h-[64px] bg-[#13131805] rounded-xl shadow-md" />
+                        </label>
+                        <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                                <span class="text-[20px] font-bold">Phone Number</span>
+                            </div>
+                            <input type="text" placeholder="Enter your phone number"
+                                class="input w-[324px] h-[64px] bg-[#13131805] rounded-xl shadow-md" />
+                        </label>
+                    </div>
+                    <div class="mt-6">
+                        <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                                <span class="text-[20px] font-bold">Description</span>
+                            </div>
+                            <input type="text" placeholder="Enter your phone number"
+                                class="input w-[324px] lg:w-[672px] h-[210px] lg:h-[370px] bg-[#13131805] rounded-xl shadow-md" />
+                        </label>
+                    </div>
+                    <button class="bg-[#FF4240] py-4 text-white rounded-xl w-[324px] lg:w-[672px] mt-6">Send
+                        Message</button>
+                </div>
+            </div>
+             <!-- social section -->
+
+             <div class="bg-[#13131805] text-center rounded-xl mt-6 w-[324px] lg:w-[1170px] mx-auto">
+                <h3 class="text-4xl font-extrabold mb-6 pt-9">Social Media</h3>
+                <div class="flex gap-5 justify-center pb-9">
+                    <i class="fa-brands fa-facebook-f text-2xl"></i>
+                    <i class="fa-brands fa-twitter text-2xl"></i>
+                    <i class="fa-brands fa-square-instagram text-2xl"></i>
+                </div>
+            </div>
+        </section>
+        </main>
+
+    <footer class="footer py-24 bg-[#131318]">
+        <div
+            class="lg:container mx-auto flex flex-col text-center lg:text-left lg:flex-row justify-between items-center">
+            <div class="flex flex-col items-center lg:items-start">
+                <h3 class="text-white text-3xl font-extrabold mb-4">Get In Touch</h3>
+                <p class="text-[#FFFFFF99] font-medium mb-6 lg:w-[346px]">Generally, visitors can also leave feedback or ask questions through these channels. You’ll receive valuable information about your customers’ preferences and expectations if done correctly.</p>
+                <div>
+                    <div class="flex gap-4 items-center mx-auto mb-2">
+                        <i class="fa-regular fa-envelope text-lg text-[#FF4240]"></i>
+                        <p class="text-[#FFFFFFCC] font-medium">hockeys@support.com</p>
+                    </div>
+                    <div class="flex gap-4 mx-auto items-center">
+                        <i class="fa-solid fa-phone text-lg text-[#FF4240]"></i>
+                        <p class="text-[#FFFFFFCC] font-medium">(+88) 01609378080</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-16 mt-8 mb-8 lg:mt-0 lg:mb-0 lg:flex-none lg:gap-64">
+                <div>
+                    <h3 class="text-white text-lg font-bold mb-6">Company</h3>
+                    <p class="text-[#FFFFFF99] font-medium mb-4">About us</p>
+                    <p class="text-[#FFFFFF99] font-medium mb-4">Leadership</p>
+                    <p class="text-[#FFFFFF99] font-medium mb-4">Careers</p>
+                    <p class="text-[#FFFFFF99] font-medium mb-4">News & Article</p>
+                    <p class="text-[#FFFFFF99] font-medium mb-4">Legal Notice</p>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-bold mb-6">Support</h3>
+                    <p class="text-[#FFFFFF99] font-medium mb-4">Help Center</p>
+                    <p class="text-[#FFFFFF99] font-medium mb-4">FAQ</p>
+                    <p class="text-[#FFFFFF99] font-medium mb-4">Ticket Support</p>
+                    <p class="text-[#FFFFFF99] font-medium mb-4">Contact Us</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-white text-lg font-bold mb-6">Services</h3>
+                <p class="text-[#FFFFFF99] font-medium mb-4">Academy</p>
+                <p class="text-[#FFFFFF99] font-medium mb-4">Group Lesson</p>
+                <p class="text-[#FFFFFF99] font-medium mb-4">Private Lesson</p>
+                <p class="text-[#FFFFFF99] font-medium mb-4">Hockeys for kids</p>
+                <p class="text-[#FFFFFF99] font-medium mb-4">Hockeys for Adult</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
